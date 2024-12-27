@@ -34,9 +34,14 @@ body {
   }
   
   header nav ul li a {
+    font-size: 20px;
     color: #e47c0c;
     text-decoration: none;
     font-weight: bold;
+  }
+  header nav ul li a:hover
+  {
+     color: rgb(154, 215, 0);
   }
   
   section {
@@ -61,10 +66,10 @@ body {
   }
   
   .portfolio .card {
-    background: #f4f4f4;
+    background: #e8e8e8;
     padding: 1rem;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #e1e1e1;
     border-radius: 5px;
   }
   

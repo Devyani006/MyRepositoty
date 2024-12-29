@@ -80,4 +80,17 @@ body {
     padding: 1rem 0;
     margin-top: 2rem;
   }
+  .card 
+    {
+      animation: bouncing 1.6s infinite alternate;
+    }
+
+   @keyframes bouncing {
+    form {
+      transform: translateY(0px);
+    }to 
+    {
+      transform: translateY(-16px);
+    }
+   } 
   
